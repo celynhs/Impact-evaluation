@@ -10,15 +10,15 @@ In this project, I designed a short baseline and endline survey, built an Excel 
 
 **Tools:** KoboToolbox (XLSForm) · Excel (formula-based checks, data validation, conditional formatting) · BigQuery SQL · Looker Data Studio
 
-**Survey (XLSForm):** [Click Here](./survey/VTP_Impact_Survey_XLSForm.xlsx)
+**Survey (XLSForm):** [Click Here](./VTP_Impact_Survey_XLSForm.xlsx)
 
-**Data Cleaning Template (Excel):** [Click Here](./excel_cleaning/VTP_Data_Cleaning_Template.xlsx)
+**Data Cleaning Template (Excel):** [Click Here](./VTP_Data_Cleaning_Template.xlsx)
 
-**SQL Scripts:** [Click Here](./sql/vtp_impact_analysis_bigquery.sql)
+**SQL Scripts:** [Click Here](./vtp_impact_analysis_bigquery.sql)
 
 **Looker Data Studio Dashboard:** [Click Here](https://datastudio.google.com/reporting/2a117445-3711-4fa5-bf32-c86fd1e6af35)
 
-**Summary Report (PDF):** [Click Here](./report/VTP_Impact_Evaluation_Summary_Report.pdf)
+**Summary Report (PDF):** [Click Here](./VTP_Impact_Evaluation_Summary_Report.pdf)
 
 ---
 
