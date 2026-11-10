@@ -10,11 +10,11 @@ In this project, I designed a short baseline and endline survey, built an Excel 
 
 **Tools:** KoboToolbox (XLSForm) · Excel (formula-based checks, data validation, conditional formatting) · BigQuery SQL · Looker Data Studio
 
-**Survey (XLSForm):** [Click Here](./VTP_Impact_Survey_XLSForm.xlsx)
+**Survey (XLSForm):** [Click Here](./01_VTP_Impact_Survey_XLSForm.xlsx)
 
-**Data Cleaning Template (Excel):** [Click Here](./VTP_Data_Cleaning_Template.xlsx)
+**SQL Query:** [Click Here](./VTP_SQL_queries.sql)
 
-**SQL Scripts:** [Click Here](./vtp_impact_analysis_bigquery.sql)
+**Data Cleaning Template (Excel):** [Click Here](./02_VTP_Data_Cleaning_Template.xlsx)
 
 **Looker Data Studio Dashboard:** [Click Here](https://datastudio.google.com/reporting/2a117445-3711-4fa5-bf32-c86fd1e6af35)
 
@@ -101,7 +101,7 @@ In this project, I designed a short baseline and endline survey, built an Excel 
 
 ## Survey design
 
-📋 [VTP_Impact_Survey_XLSForm.xlsx](./survey/VTP_Impact_Survey_XLSForm.xlsx)
+📋 [VTP_Impact_Survey_XLSForm.xlsx](./01_VTP_Impact_Survey_XLSForm.xlsx)
 
 I shortened the program's original tracer survey (about 200 fields, in Indonesian) to **39 questions in English**, about 20 minutes per interview, ready to upload to KoboToolbox.
 
@@ -121,7 +121,7 @@ I shortened the program's original tracer survey (about 200 fields, in Indonesia
 
 ## Data cleaning and validation
 
-📊 [VTP_Data_Cleaning_Template.xlsx](./excel_cleaning/VTP_Data_Cleaning_Template.xlsx)
+📊 [VTP_Data_Cleaning_Template.xlsx](./02_VTP_Data_Cleaning_Template.xlsx)
 
 ### The cleaning template
 
@@ -200,8 +200,6 @@ Significance level: p < 0.05.
 
 ## Findings
 
-📄 All queries: [vtp_impact_analysis_bigquery.sql](./sql/vtp_impact_analysis_bigquery.sql)
-
 ### 1. Sample and attrition
 
 *SQL Q1*
@@ -234,8 +232,6 @@ Significance level: p < 0.05.
 
 *SQL Q4, Q5, Q11*
 
-![Life-skills impact by domain](images/vtp_life_skills_domains.png)
-
 | Domain | Treatment baseline → endline | Comparison baseline → endline | Impact (DiD) |
 |---|---|---|---|
 | Problem solving & critical thinking | 2.61 → 3.22 | 2.73 → 2.77 | **+0.57** |
@@ -251,8 +247,6 @@ Significance level: p < 0.05.
 
 *SQL Q3, Q4, Q7*
 
-![Job search at endline](images/vtp_job_search.png)
-
 *Job search in the past 12 months, endline*
 
 | Group | Applications | Interviews | Offers | Interviews per application | Offers per application |
@@ -267,8 +261,6 @@ Significance level: p < 0.05.
 ### 5. Employment, job quality and income
 
 *SQL Q3, Q4, Q6 and dashboard page 2*
-
-![Employment rate at baseline and endline](images/vtp_employment.png)
 
 | Indicator | Treatment | Comparison | Impact (DiD) | 95% CI | Significant? |
 |---|---|---|---|---|---|
@@ -315,8 +307,6 @@ Significance level: p < 0.05.
 ### 7. Participant feedback
 
 *SQL Q10, Q12, trained youth at endline (110)*
-
-![Net Promoter Score by training track](images/vtp_nps_by_track.png)
 
 | Track | Satisfied (4–5 of 5) | Relevance (1–5) | Used the skills | NPS |
 |---|---|---|---|---|
@@ -395,18 +385,12 @@ The dashboard is built on three BigQuery views and three saved summary tables, w
 ```
 Social-Impact-Analysis/
 ├── README.md
-├── survey/
-│   └── VTP_Impact_Survey_XLSForm.xlsx
-├── excel_cleaning/
-│   └── VTP_Data_Cleaning_Template.xlsx
-├── sql/
-│   ├── vtp_impact_analysis_bigquery.sql
-│   └── bigquery_schema.json
+├── VTP_Impact_Survey_XLSForm.xlsx
+├── VTP_Data_Cleaning_Template.xlsx
 ├── data/
 │   ├── vtp_clean_data.csv
 │   └── vtp_cleaning_log.csv
-├── report/
-│   └── VTP_Impact_Evaluation_Summary_Report.pdf
+├── VTP_Impact_Evaluation_Summary_Report.pdf
 └── images/
     ├── dashboard_page1.png
     └── vtp_*.png
