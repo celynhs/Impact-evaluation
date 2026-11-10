@@ -387,11 +387,13 @@ The dashboard is built on three BigQuery views and three saved summary tables, w
 Social-Impact-Analysis/
 ├── README.md
 ├── VTP_Impact_Survey_XLSForm.xlsx
+├── VTP_Questionnaire.xlsx
 ├── VTP_Data_Cleaning_Template.xlsx
+├── VTP_SQL_queries.sql
+├── VTP_Impact_Evaluation_Summary_Report.pdf
 ├── data/
 │   ├── vtp_clean_data.csv
 │   └── vtp_cleaning_log.csv
-├── VTP_Impact_Evaluation_Summary_Report.pdf
 └── images/
     ├── dashboard_page1.png
     └── vtp_*.png
