@@ -10,9 +10,7 @@ In this project, I designed a short baseline and endline survey, built an Excel 
 
 **Tools:** KoboToolbox (XLSForm) · Excel (formula-based checks, data validation, conditional formatting) · BigQuery SQL · Looker Data Studio
 
-**Survey (XLSForm):** [Click Here](./01_VTP_Impact_Survey_XLSForm.xlsx)
-
-**Survey (PDF):** [Click Here](./VTP_Questionnaire.pdf)
+**Survey (XLSForm | pdf | Kobo preview):** [Click Here](./01_VTP_Impact_Survey_XLSForm.xlsx) | [Click Here](./VTP_Questionnaire.pdf) | [Click Here](https://ee.kobotoolbox.org/preview/nKm6APNT)
 
 **SQL Query:** [Click Here](./VTP_SQL_queries.sql)
 
