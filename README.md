@@ -164,7 +164,7 @@ The 15 checks flagged **55 of 391 submissions**. Every flag was reviewed and log
 | Consent refused at endline | 1 | Removed, counted as attrition |
 
 **Result:** 391 submissions → **383 clean interviews**. 8 removed (2 test, 4 duplicates, 1 refusal, 1 fabricated interview), 36 records corrected, 0 issues pending.
-
+![Data Cleaning Template - Check Screenshot](images/vtp_checkss.png)
 ---
 
 ## Key definitions
