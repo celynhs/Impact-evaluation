@@ -12,6 +12,8 @@ In this project, I designed a short baseline and endline survey, built an Excel 
 
 **Survey (XLSForm):** [Click Here](./01_VTP_Impact_Survey_XLSForm.xlsx)
 
+**Survey (PDF):** [Click Here](./VTP_Questionnaire.xlsx)
+
 **SQL Query:** [Click Here](./VTP_SQL_queries.sql)
 
 **Data Cleaning Template (Excel):** [Click Here](./02_VTP_Data_Cleaning_Template.xlsx)
